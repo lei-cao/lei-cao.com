@@ -1,7 +1,7 @@
 box: debian
 build:
   steps:
-    - lei-cao/lei-cao.com:
+    - lei/lei-cao.com:
         version: "0.15"
         theme: hugo-future-imperfect
         flags: --buildDrafts=true
